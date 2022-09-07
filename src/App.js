@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import DisplayCarContainer from './containers/CarContainer';
+import DisplayTrackContainer from './containers/TrackContainer';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      <DisplayCarContainer/>
     </div>
+    <div>
+      <DisplayTrackContainer/>
+    </div>
+    <h3>This is where a car can race</h3>
+    </>
   );
 }
 
