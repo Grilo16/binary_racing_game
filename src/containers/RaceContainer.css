@@ -1,0 +1,51 @@
+.flex-container {
+    display: flex;
+}
+
+
+.select-car-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vh;
+    list-style: none;
+    background-color: grey;
+    height: 60vh;
+    width: 90vh;
+    overflow: scroll;
+}
+
+.select-car {
+    margin-top: 15px;
+    text-align: center;
+    background-color: darkblue;
+    width: 25vh;
+    height: fit-content;
+}
+
+
+.select-track-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vh;
+    list-style: none;
+    background-color: grey;
+    height: 20vh;
+    width: 90vh;
+    overflow: scroll;
+}
+
+.select-track{
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(130, 130, 182);
+    width: 25vh;
+    height: 20vh;
+}
+
+.race-display {
+    margin-top: 15px;
+    background-color: grey;
+    width: 100vh;
+    height: 82vh;
+    overflow: scroll;
+}
